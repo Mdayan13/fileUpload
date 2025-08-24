@@ -1,4 +1,3 @@
-<div align="center">
   <br />
     <a href="https://x.com/ayan_md97732" target="_blank">
       <img src="public/readme/hero.png" alt="Project Banner">
