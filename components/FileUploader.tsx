@@ -88,6 +88,8 @@ const FileUploader = ({ accountId, ownerId, className }: Props) => {
                   <Thumbnail
                     type={type}
                     extension={extension}
+                    className=""
+                    imageClassName=""
                     url={convertFileToUrl(file)}
                   />
 
