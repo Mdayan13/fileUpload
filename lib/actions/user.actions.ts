@@ -94,10 +94,10 @@ export const verifySecret = async({accountId, password}: {accountId: string, pas
      }
 }
 export const getCurrentUser = async() => {
+  try {
   const { account } = await createSessionClient();
   const { databases } = await createAdminClient();
   const result = await account.get();
-  try {
     const user = await databases.listDocuments(
       appwriteConfig.databaseId,
       appwriteConfig.userCollectionId,
@@ -107,7 +107,6 @@ export const getCurrentUser = async() => {
     return parseStringify(user.documents[0]);
   } catch (error) {
     console.log(error);
-    handleError({error, message: "failed to fetched Current User"})
   }
 }
 export const signOutUser = async() => {
