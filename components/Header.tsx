@@ -12,7 +12,7 @@ const Header = ({userId, accountId}: {userId:string, accountId:string}) => {
       <Toaster />
 
       <div className="header-wrapper">
-        <FileUploader accountId={accountId} ownerId={userId} />
+        <FileUploader className="" accountId={accountId} ownerId={userId} />
         <form
           action={async () => {
             "use server";

@@ -98,7 +98,7 @@ const MobileNavigation = ({
           </nav>
           <Separator className="my-6 bg-light-400/35" />
           <div>
-             <FileUploader accountId={accountId} ownerId={ownerId} />
+             <FileUploader className="" accountId={accountId} ownerId={ownerId} />
             <Button type="submit" onClick={async() => await signOutUser()}  className="mobile-sign-out-button">
               <Image
                 height={24}
