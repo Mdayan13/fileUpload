@@ -7,7 +7,7 @@ interface Props {
   extension: string;
   url: string;
   className: string;
-  imageClassName: string;
+  imageClassName?: string;
 }
 
 export const Thumbnail = ({
@@ -15,7 +15,7 @@ export const Thumbnail = ({
   extension,
   url,
   className,
-  imageClassName,
+  imageClassName = "",
 }: Props) => {
   const isImage = type === "image" && extension !== "svg";
   return (

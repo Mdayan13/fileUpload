@@ -73,8 +73,10 @@ const Dashboard = async () => {
               >
                 <Thumbnail
                   type={file.type}
+                  className=""
                   extension={file.extension}
                   url={file.url}
+                  imageClassName=""
                 />
 
                 <div className="recent-file-details">
