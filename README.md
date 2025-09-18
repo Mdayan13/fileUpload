@@ -1,6 +1,6 @@
   <br />
     <a href="https://x.com/ayan_md97732" target="_blank">
-      <img src="public/readme/hero.png](https://pbs.twimg.com/media/GzfWRryWgAAz-Ah?format=jpg&name=large)" alt="Project Banner">
+      <img src="https://pbs.twimg.com/media/GzfWRryWgAAz-Ah?format=jpg&name=large)" alt="Project Banner">
     </a>
   <br />
 
